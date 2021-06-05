@@ -109,6 +109,23 @@ td{
     top:360px;
     left:210px;
 }
+#board_prop{
+    height: 70px;
+    display: block;
+    margin :36px auto;
+}
+#big_bush{
+    position: absolute;
+    top:420px;
+    right:-150px;
+}
+#small_bush{
+    transform: scaleX(-1);
+    position: absolute;
+    height: 180px;
+    top:500px;
+    left:-50px;
+}
 #list {
     position:absolute;
     background-color: #F2B705;
