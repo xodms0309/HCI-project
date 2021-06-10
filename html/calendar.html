@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <link rel="stylesheet" type="text/css" href="calendar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#today").click(function() {
+                $("#list").slideToggle();
+            });
+        });
+        $(document).ready(function() {
+            $("#list").click(function() {
+                $("#schedule").slideToggle();
+            });
+        });
+        
+    </script>
+    <title>Calendar</title>
+</head>
+<body>
+    <div class="main-box">
+        <div class="hamburger">
+            <a class="menu-trigger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="menu" id="menu">
+                <li><object data="./images/town.svg" height=50px; class="town"></object></li>
+                <li><object data="./images/community.svg" height=50px;></object></li>
+                <li><img src="./images/statistics.svg" height=50px;></li>
+                <li><img src="./images/setting.svg" height=50px;></li>
+        </div>
+        <div class="profile">
+            <button><img src="./images/user profile.png" ></button>
+        </div>
+    </div>
+    
+    <!--여기부터 캘린더 부분-->
+    <div>
+        <ul class = "upper">
+            <li class="tri_left"><img src="./images/triangle.png" height=30px;></li>
+            <li class="month">2021 MAY</li>
+            <li class="tri_right"><img src="./images/triangle_right.png" height=30px;></li>
+        </ul>
+    </div>
+
+    <div class="wood">
+        <img src="./images/main wood.png"  height=650px;>
+        <div class="calendar">
+            <table>
+                <tr class="day">
+                    <th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th>
+                </tr>
+                <tr>
+                    <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td><p id="today">17</p></td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td>
+                </tr>
+            </table>
+
+            <div class="images">
+                <img id="day1" src="./images/day/day1.png">
+                <img id="day3" src="./images/day/day3.png">
+                <img id="day5" src="./images/day/day5.png">
+                <img id="day6" src="./images/day/day7.png">
+                <img id="day10" src="./images/day/day10.png">
+                <img id="day11" src="./images/day/day11.png">
+                <img id="day12" src="./images/day/day12.png">
+                <img id="day14" src="./images/day/day14.png">
+                <img id="day15" src="./images/day/day15.png">
+                <img id="day16" src="./images/day/day16.png">
+            </div>
+
+            <!--보드 손잡이, 식물-->
+            <div>
+                <img id="board_prop" src="./images/board prop.png">
+                <img id="big_bush" src="./images/big bush.png">
+                <img id="small_bush" src="./images/big bush.png">
+            </div>
+
+            <!--17일 토글버틀 누르면 나오는 부분-->
+            <a href="./edit.html">
+                <div id="list">
+                    Add Schedule<br>
+                    Edit Schedule
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+</body>
+</html>

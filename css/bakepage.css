@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color:#FFE6D8;
+}
+div#up{
+    width:100%;
+    height:30px;
+    float:none;
+}
+#down{
+    width: 100%;
+    height:680px;
+    float:none;
+    margin: 0;
+}
+.jb-wrap {
+    width: 70%;
+    position:relative;
+    margin-left: 15%;
+}
+.jb-wrap img {
+    width: 100%;
+    vertical-align: middle;
+}
+.jb-text {
+    padding: 5px 10px;
+    text-align: center;
+    position:absolute;
+    bottom:40%;
+    right:12%;
+}
+.jb-text2 {
+    padding: 5px 10px;
+    text-align: center;
+    position:absolute;
+    bottom:20%;
+    right:20%;
+}

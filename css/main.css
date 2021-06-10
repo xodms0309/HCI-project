@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-color:#FFE6D8;
+}
+div#left{
+    width:50%;
+    height:950px;
+    background-image:url('../images/wood2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+}
+#right{
+    width:50%;
+    height:700px;
+    float:left;
+}
+#btn_group button{
+    border: #FA5C35 solid;
+    background-color: #FA5C35;
+    color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    width: 150px;
+    height: 55px;
+}
