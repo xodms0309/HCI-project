@@ -1,6 +1,12 @@
 body{
     margin: 0;
     background-color:#FFE6D8;
+    padding: 10px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+#up p{
+    padding-top:50px;
+    padding-bottom:10px;
 }
 div#up{
     width:100%;
@@ -30,4 +36,7 @@ div#up{
     bottom:13%;
     left:50%;
     transform: translate( -50%, 0% );
+}
+#up img{
+    cursor:pointer;
 }

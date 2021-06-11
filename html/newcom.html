@@ -4,9 +4,33 @@
         <title>커뮤니티</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="../css/newcom.css">
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="up" style="text-align: center; margin-top: 90px;">
+        <div class="main-box">
+            <div class="hamburger">
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div class="menu" id="menu">
+                    <li><a href="#"><img src="../images/town.svg" height=50px; class="town"></a></li>
+                    <li><a href="./newcom.html"><img src="../images/community.svg" height=50px;></a></li>
+                    <li><a href="./statistics.html"><img src="../images/statistics.svg" height=50px;></a></li>
+                    <!-- <li><a href="#"><img src="../images/setting.svg" height=50px;></a></li> -->
+            </div>
+            <div class="profile">
+                <button><img src="../images/user profile.png" ></button>
+            </div>
+        </div>
+        <script src="../js/menu.js"></script>
+        <!-- 여기부터 community -->
+        <div id="up" style="text-align: center;">
             <p><span style="font-size: 50px"><b>Community</b></span></p>
             <input type="text" id="search" name="search" style="border:grey; border-radius: 5px; height:40px; width:500px;">
             <button style="background: none; border:none"><img src="../images/search.png" width="30" height=auto></button>

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="menu.css">
-    <link rel="stylesheet" type="text/css" href="calendar.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" type="text/css" href="../css/calendar.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
@@ -18,7 +20,6 @@
                 $("#schedule").slideToggle();
             });
         });
-        
     </script>
     <title>Calendar</title>
 </head>
@@ -32,27 +33,27 @@
             </a>
         </div>
         <div class="menu" id="menu">
-                <li><object data="./images/town.svg" height=50px; class="town"></object></li>
-                <li><object data="./images/community.svg" height=50px;></object></li>
-                <li><img src="./images/statistics.svg" height=50px;></li>
-                <li><img src="./images/setting.svg" height=50px;></li>
+                <li><a href="#"><img src="../images/town.svg" height=50px; class="town"></a></li>
+                <li><a href="./newcom.html"><img src="../images/community.svg" height=50px;></a></li>
+                <li><a href="./statistics.html"><img src="../images/statistics.svg" height=50px;></a></li>
+                <!-- <li><a href="#"><img src="../images/setting.svg" height=50px;></a></li> -->
         </div>
         <div class="profile">
-            <button><img src="./images/user profile.png" ></button>
+            <button><img src="../images/user profile.png" ></button>
         </div>
     </div>
-    
+    <script src="../js/menu.js"></script>
     <!--여기부터 캘린더 부분-->
     <div>
         <ul class = "upper">
-            <li class="tri_left"><img src="./images/triangle.png" height=30px;></li>
+            <li class="tri_left"><img src="../images/triangle.png" height=30px;></li>
             <li class="month">2021 MAY</li>
-            <li class="tri_right"><img src="./images/triangle_right.png" height=30px;></li>
+            <li class="tri_right"><img src="../images/triangle_right.png" height=30px;></li>
         </ul>
     </div>
 
     <div class="wood">
-        <img src="./images/main wood.png"  height=650px;>
+        <img src="../images/main wood.png"  height=650px;>
         <div class="calendar">
             <table>
                 <tr class="day">
@@ -79,23 +80,23 @@
             </table>
 
             <div class="images">
-                <img id="day1" src="./images/day/day1.png">
-                <img id="day3" src="./images/day/day3.png">
-                <img id="day5" src="./images/day/day5.png">
-                <img id="day6" src="./images/day/day7.png">
-                <img id="day10" src="./images/day/day10.png">
-                <img id="day11" src="./images/day/day11.png">
-                <img id="day12" src="./images/day/day12.png">
-                <img id="day14" src="./images/day/day14.png">
-                <img id="day15" src="./images/day/day15.png">
-                <img id="day16" src="./images/day/day16.png">
+                <img id="day1" src="../images/day/day1.png">
+                <img id="day3" src="../images/day/day3.png">
+                <img id="day5" src="../images/day/day5.png">
+                <img id="day6" src="../images/day/day7.png">
+                <img id="day10" src="../images/day/day10.png">
+                <img id="day11" src="../images/day/day11.png">
+                <img id="day12" src="../images/day/day12.png">
+                <img id="day14" src="../images/day/day14.png">
+                <img id="day15" src="../images/day/day15.png">
+                <img id="day16" src="../images/day/day16.png">
             </div>
 
             <!--보드 손잡이, 식물-->
             <div>
-                <img id="board_prop" src="./images/board prop.png">
-                <img id="big_bush" src="./images/big bush.png">
-                <img id="small_bush" src="./images/big bush.png">
+                <img id="board_prop" src="../images/board prop.png">
+                <img id="big_bush" src="../images/big bush.png">
+                <img id="small_bush" src="../images/big bush.png">
             </div>
 
             <!--17일 토글버틀 누르면 나오는 부분-->

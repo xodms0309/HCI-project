@@ -1,5 +1,7 @@
 body{
     background-color:#FFE6D8;
+    padding: 10px 10px;
+    font-family: 'Poppins', sans-serif;
 }
 .upper {
     width : 80%;
@@ -57,6 +59,7 @@ td{
     margin-top: -12px;
     padding:4px;
     border-radius: 100%;
+    cursor:pointer;
 }
 
 #day1 {

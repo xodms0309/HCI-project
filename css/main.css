@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color:#FFE6D8;
+    font-family: 'Poppins', sans-serif;
 }
 div#left{
     width:50%;
