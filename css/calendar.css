@@ -9,6 +9,7 @@ body{
     font-weight:bold;
     position : relative;
     top : 30px;
+    list-style:none;
 }
 .tri_left {
     float: left;

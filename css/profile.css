@@ -1,0 +1,41 @@
+body{
+    padding: 10px 10px;
+    background-color:#FFE6D8;
+    font-family: 'Poppins', sans-serif;
+}
+.name{
+    text-align:center;
+    font-size:40px;
+    font-weight:bold;
+    padding:70px 0;
+}
+.container{
+    background-color: #FFFFFF;
+    border-radius:10px;
+    margin:0 100px;
+    padding:100px;
+    display: flex;
+}
+.user-info{
+    display:flex;
+    align-items:center;
+    padding-left:100px;
+}
+.user-info li{
+    list-style:none;
+    font-size:20px;
+    padding-bottom:20px;
+}
+#edit-profile{
+    margin-top:50px;
+    position:absolute;
+    left:50%;
+    border: #FA5C35 solid;
+    background-color: #FA5C35;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 150px;
+    height: 55px;
+    cursor:pointer;
+}

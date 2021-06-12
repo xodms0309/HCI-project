@@ -77,13 +77,13 @@ body{
     transform: translateY(-20px) rotate(45deg);
   }
 
-li{
+.menu li{
     list-style:none;
     float:left;
     padding-left:15px;
     border-color:black;
 }
-button{
+.profile button{
     border:0;
     background-color: transparent;
 }
