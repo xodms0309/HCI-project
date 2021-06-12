@@ -48,17 +48,47 @@ body{
   top: 0;
   width: 20px;
   height: 20px;
-  border:2px solid #FA5C35;
   background: #fff;
 }
-[type="radio"]:checked + label:before {
-  /* border:2px solid #9f9cff; */
-  background: #FA5C35
+[id="select"]:checked + label:before,
+[id="select"]:not(:checked) + label:before{
+  border:2px solid #ff9e5e;
 }
+[id="select2"]:checked + label:before,
+[id="select2"]:not(:checked) + label:before{
+  border:2px solid #fff100;
+}
+[id="select3"]:checked + label:before,
+[id="select3"]:not(:checked) + label:before{
+  border:2px solid #80c269;
+}
+[id="select4"]:checked + label:before,
+[id="select4"]:not(:checked) + label:before{
+  border:2px solid #00a0e9;
+}
+[id="select5"]:checked + label:before,
+[id="select5"]:not(:checked) + label:before{
+  border:2px solid #8957a1;
+}
+[id="select"]:checked + label:before{
+  background: #ff9e5e;
+}
+[id="select2"]:checked + label:before{
+  background: #fff100;
+}
+[id="select3"]:checked + label:before{
+  background: #80c269;
+}
+[id="select4"]:checked + label:before{
+  background: #00a0e9;
+}
+[id="select5"]:checked + label:before{
+  background: #8957a1;
+}
+
 [type="radio"]:checked + label:after,
 [type="radio"]:not(:checked) + label:after {
   content: '';
-  background: #9f9cff;
   position: absolute;
   top:5px;
   left:5px;
@@ -96,7 +126,7 @@ body{
     left:0;
     right:0;
     bottom:0;
-    background-color:#FA5C35;
+    background-color:#ff9e5e;
     border-radius:4px;
     margin:auto;
 }
