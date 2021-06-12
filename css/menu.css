@@ -1,6 +1,9 @@
 /* .main-box{
     display:flex;
 } */
+body{
+  background-color: #FFE6D8;
+}
 .hamburger{
     height:50px;
     width:50px;
@@ -74,9 +77,15 @@
 li{
     list-style:none;
     float:left;
-    padding-left:30px;
+    padding-left:15px;
+    border-color:black;
 }
 button{
     border:0;
     background-color: transparent;
+}
+.menu li img{
+  background-color:white;
+  padding:5px;
+  border-radius:10px;
 }
