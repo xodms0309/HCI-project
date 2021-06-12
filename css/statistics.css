@@ -3,15 +3,31 @@ body{
     padding: 10px 10px;
     font-family: 'Poppins', sans-serif;
 }
+.graph-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
 .container{
     background-color:#fff;
     border-radius:20px;
     /*border: 1px solid #000;*/
     margin:100px 400px;
-    display: flex;
+    /* display: flex;
     justify-content: space-evenly;
-    align-items:center;
+    align-items:center; */
     height:600px;
+}
+.container .title{
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .title img{
+  cursor:pointer;
 }
 .name{
     text-align:center;

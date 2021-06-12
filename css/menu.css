@@ -20,6 +20,9 @@ body{
 .profile{
     float:right;
 }
+.profile img{
+  cursor:pointer;
+}
   .menu-trigger {
     margin-right: 70px;
     margin-bottom: 50px;
