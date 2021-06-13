@@ -3,16 +3,43 @@ body{
     padding: 10px 10px;
     font-family: 'Poppins', sans-serif;
 }
+<<<<<<< HEAD
+=======
+.graph-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
 .container{
     background-color:#fff;
     border-radius:20px;
     /*border: 1px solid #000;*/
     margin:100px 400px;
+<<<<<<< HEAD
     display: flex;
     justify-content: space-evenly;
     align-items:center;
     height:600px;
 }
+=======
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items:center; */
+    height:600px;
+}
+.container .title{
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .title img{
+  cursor:pointer;
+}
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
 .name{
     text-align:center;
     font-size:40px;

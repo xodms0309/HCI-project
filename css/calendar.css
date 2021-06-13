@@ -9,6 +9,10 @@ body{
     font-weight:bold;
     position : relative;
     top : 30px;
+<<<<<<< HEAD
+=======
+    list-style:none;
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
 }
 .tri_left {
     float: left;
@@ -56,13 +60,19 @@ td{
 #today {
     background-color:#F9DC85;
     position:absolute;
+<<<<<<< HEAD
      margin-top: -12px;
     padding:4px;
 
+=======
+    margin-top: -12px;
+    padding:4px;
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
     border-radius: 100%;
     cursor:pointer;
 }
 
+<<<<<<< HEAD
 #todayplan{
     position:absolute;
     top:325px;
@@ -75,6 +85,8 @@ td{
     left:340px;
 }
 
+=======
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
 #day1 {
     position: absolute;
     top:120px;
@@ -125,11 +137,14 @@ td{
     top:360px;
     left:210px;
 }
+<<<<<<< HEAD
 #day17 {
     position: absolute;
     top:360px;
     left:340px;
 }
+=======
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
 #board_prop{
     height: 70px;
     display: block;

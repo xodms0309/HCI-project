@@ -10,7 +10,11 @@ div#up{
 }
 #down{
     width: 100%;
+<<<<<<< HEAD
     height:680px;
+=======
+    height:710px;
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
     background-image:url('../images/back.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,4 +29,150 @@ border-radius: 30px;
 width: 140px;
 height: 55px;
 cursor: pointer;
+<<<<<<< HEAD
 }
+=======
+}
+.btn1{
+    background: url("../images/book.png") no-repeat;
+    border:none;
+    width: 250px;
+    height: 200px;
+    cursor:pointer;
+    margin-top: 3%;
+    margin-right: 3%;
+    transition:all 0.9s, color 0.3;
+}
+.btn1:hover{
+    color:white;
+    background: url("../images/booksel.png") no-repeat;
+}
+.btn1:focus{
+    color:white;
+    background: url("../images/booksel.png") no-repeat;
+}
+.btn2{
+    background: url("../images/music.png") no-repeat;
+    border:none;
+    width: 250px;
+    height: 200px;
+    cursor:pointer;
+    margin-top: 3%;
+    margin-right: 3%;
+    transition:all 0.9s, color 0.3;
+}
+.btn2:hover{
+    color:white;
+    background: url("../images/musicsel.png") no-repeat;
+}
+.btn2:focus{
+    color:white;
+    background: url("../images/musicsel.png") no-repeat;
+}
+.btn3{
+    background: url("../images/sports.png") no-repeat;
+    border:none;
+    width: 250px;
+    height: 200px;
+    cursor:pointer;
+    margin-top: 3%;
+    margin-right: 3%;
+    transition:all 0.9s, color 0.3;
+}
+.btn3:hover{
+    color:white;
+    background: url("../images/sportssel.png") no-repeat;
+}
+.btn3:focus{
+    color:white;
+    background: url("../images/sportssel.png") no-repeat;
+}
+.btn4{
+    background: url("../images/drawing.png") no-repeat;
+    border:none;
+    width: 250px;
+    height: 200px;
+    cursor:pointer;
+    margin-top: 3%;
+    transition:all 0.9s, color 0.3;
+}
+.btn4:hover{
+    color:white;
+    background: url("../images/drawingsel.png") no-repeat;
+}
+.btn4:focus{
+    color:white;
+    background: url("../images/drawingsel.png") no-repeat;
+}
+.btn5{
+    background: url("../images/pets.png") no-repeat;
+    border:none;
+    width: 250px;
+    height: 200px;
+    cursor:pointer;
+    margin-top: 3%;
+    margin-right: 3%;
+    transition:all 0.9s, color 0.3;
+}
+.btn5:hover{
+    color:white;
+    background: url("../images/petsel.png") no-repeat;
+}
+.btn5:focus{
+    color:white;
+    background: url("../images/petsel.png") no-repeat;
+}
+.btn6{
+    background: url("../images/movie.png") no-repeat;
+    border:none;
+    width: 250px;
+    height: 200px;
+    cursor:pointer;
+    margin-top: 3%;
+    margin-right: 3%;
+    transition:all 0.9s, color 0.3;
+}
+.btn6:hover{
+    color:white;
+    background: url("../images/moviesel.png") no-repeat;
+}
+.btn6:focus{
+    color:white;
+    background: url("../images/moviesel.png") no-repeat;
+}
+.btn7{
+    background: url("../images/computer.png") no-repeat;
+    border:none;
+    width: 250px;
+    height: 200px;
+    cursor:pointer;
+    margin-top: 3%;
+    margin-right: 3%;
+    transition:all 0.9s, color 0.3;
+}
+.btn7:hover{
+    color:white;
+    background: url("../images/computersel.png") no-repeat;
+}
+.btn7:focus{
+    color:white;
+    background: url("../images/computersel.png") no-repeat;
+}
+.btn8{
+    background: url("../images/cooking.png") no-repeat;
+    border:none;
+    width: 250px;
+    height: 200px;
+    cursor:pointer;
+    margin-top: 3%;
+    transition:all 0.9s, color 0.3;
+}
+.btn8:hover{
+    color:white;
+    background: url("../images/cookingsel.png") no-repeat;
+}
+.btn8:focus{
+    color:white;
+    background: url("../images/cookingsel.png") no-repeat;
+}
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2

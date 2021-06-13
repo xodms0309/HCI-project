@@ -5,7 +5,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 #up p{
+<<<<<<< HEAD
     padding-top:50px;
+=======
+    padding-top:60px;
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
     padding-bottom:10px;
 }
 div#up{
@@ -28,6 +32,10 @@ div#up{
 .jb-wrap img {
     width: 100%;
     vertical-align: middle;
+<<<<<<< HEAD
+=======
+    cursor:pointer;
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
 }
 .jb-text {
     padding: 5px 10px;

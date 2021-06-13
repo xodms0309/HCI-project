@@ -16,6 +16,7 @@ div#up{
     margin: 0;
 }
 .jb-wrap {
+<<<<<<< HEAD
     width: 70%;
     position:relative;
     margin-left: 15%;
@@ -37,4 +38,49 @@ div#up{
     position:absolute;
     bottom:20%;
     right:20%;
+=======
+    margin-top:100px;
+    margin-left: 25%;
+    display:flex;
+}
+.jb-image{
+    max-width:700px;
+}
+.jb-image img {
+    width:100%;
+    vertical-align: middle;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+}
+.right-container {
+    background-color:#FFFFFF;
+    padding: 5px 10px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+.jb-text{
+    padding-top:80px;
+}
+#join{
+    margin-top:100px;
+    border: #FA5C35 solid;
+    background-color: #FA5C35;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 150px;
+    height: 55px;
+    cursor:pointer;
+}
+#close{
+    background-color:lightgray;
+    color:white;
+    font-size:25px;
+    border:none;
+    width:35px;
+    height:35px;
+    border-radius:10px;
+    float:right;
+    cursor:pointer;
+>>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
 }
