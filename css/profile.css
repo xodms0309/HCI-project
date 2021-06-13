@@ -12,9 +12,10 @@ body{
 .container{
     background-color: #FFFFFF;
     border-radius:10px;
-    margin:0 100px;
+    width:750px;
     padding:100px;
     display: flex;
+    margin: 0 auto;
 }
 .user-info{
     display:flex;
@@ -27,6 +28,19 @@ body{
     padding-bottom:20px;
 }
 #edit-profile{
+    margin-top:50px;
+    position:absolute;
+    left:40%;
+    border: #FA5C35 solid;
+    background-color: #FA5C35;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 150px;
+    height: 55px;
+    cursor:pointer;
+}
+#logout {
     margin-top:50px;
     position:absolute;
     left:50%;
