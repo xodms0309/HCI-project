@@ -1,0 +1,141 @@
+body{
+    background-color:#FFE6D8;
+    padding: 10px 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color:#fff;
+    border-radius:20px;
+    /*border: 1px solid #000;*/
+    margin:100px 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height:600px;
+}
+.name{
+    text-align:center;
+    font-size:40px;
+    font-weight:bold;
+    padding-top:70px;
+}
+/*radio button*/
+ .select {
+    padding: 30px;
+    font-weight:bold;
+    color:#757575;
+    float: left;
+}
+.select input[type=radio]{
+    display: none;
+    
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label{
+  position: relative;
+  padding-left: 30px;
+  padding-bottom:20px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+}
+[id="select"]:checked + label:before,
+[id="select"]:not(:checked) + label:before{
+  border:2px solid #ff9e5e;
+}
+[id="select2"]:checked + label:before,
+[id="select2"]:not(:checked) + label:before{
+  border:2px solid #fff100;
+}
+[id="select3"]:checked + label:before,
+[id="select3"]:not(:checked) + label:before{
+  border:2px solid #80c269;
+}
+[id="select4"]:checked + label:before,
+[id="select4"]:not(:checked) + label:before{
+  border:2px solid #00a0e9;
+}
+[id="select5"]:checked + label:before,
+[id="select5"]:not(:checked) + label:before{
+  border:2px solid #8957a1;
+}
+[id="select"]:checked + label:before{
+  background: #ff9e5e;
+}
+[id="select2"]:checked + label:before{
+  background: #fff100;
+}
+[id="select3"]:checked + label:before{
+  background: #80c269;
+}
+[id="select4"]:checked + label:before{
+  background: #00a0e9;
+}
+[id="select5"]:checked + label:before{
+  background: #8957a1;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: '';
+  position: absolute;
+  top:5px;
+  left:5px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+/*graph */
+.graph{
+    float: left;
+    display:flex;
+    align-items: center;
+}
+
+.graph li{
+    align-items:center;
+}
+.graph li div{
+    position:relative;
+    width:30px;
+    height:200px;
+    margin:auto;
+}
+.graph li div span{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#ff9e5e;
+    border-radius:4px;
+    margin:auto;
+}
+.graph li p{
+    text-align:center;
+    margin:0;
+}
+.graph li{
+    width:100px;
+    list-style:none;
+    margin:auto;
+}

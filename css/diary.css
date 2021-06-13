@@ -1,0 +1,29 @@
+
+
+#content{
+    text-align: center;
+    z-index: 1;
+}
+
+
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+
+.diarytitle{
+    font-size: 30px;
+    text-align: center;
+}
+
+.diarycon{
+    font-size: 18px;
+    text-align: center;
+}
+
+.diaryform{
+    position: absolute;
+    top:160px;
+    left:650px;
+    z-index: -1;
+}

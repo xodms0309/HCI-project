@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" type="text/css" href="../css/add.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#today").click(function() {
+                $("#list").slideToggle();
+            });
+        });
+        $(document).ready(function() {
+            $("#list").click(function() {
+                $("#schedule").slideToggle();
+            });
+        });
+    </script>
+    <title>Town</title>
+</head>
+<body>
+    <div class="main-box">
+        <div class="hamburger">
+            <a class="menu-trigger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="menu" id="menu">
+            <li><a href="./calendar.html"><img src="../images/home_white.svg" height=50px; style="background-color: #009BA0;"></a></li>
+            <li><a href="./town.html"><img src="../images/flag.svg" height=50px; class="town"></a></li>
+            <li><a href="./newcom.html"><img src="../images/community.svg" height=50px;></a></li>
+            <li><a href="./statistics.html"><img src="../images/statistics.svg" height=50px;></a></li>
+        </div>
+        <div class="profile">
+            <button><img src="../images/user profile.png" ></button>
+        </div>
+    </div>
+    <script src="../js/menu.js"></script>
+    <br>
+    <div class="title">
+        <h2> ADD PLAN📝</h2>
+    </div>
+    <br>
+    <div class="form">
+        <form method="post" action="calendar1.html">
+            <p>HOBBY PLAN<br> <input type=text name=planname></p>
+            <p>DATA<br><input type=time name=time> ~  <input type=time name=time></p>
+        
+            <br>
+            <input type=submit value="ADD">
+        </form>
+    </div>
+
+    <div class="form-img">
+        <img src="../images/form.png" weight="500px" height="auto">
+    </div>
+    
+</body>
+</html>

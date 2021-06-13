@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" type="text/css" href="../css/diary.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#today").click(function() {
+                $("#list").slideToggle();
+            });
+        });
+        $(document).ready(function() {
+            $("#list").click(function() {
+                $("#schedule").slideToggle();
+            });
+        });
+    </script>
+    <title>Town</title>
+</head>
+<body>
+    <div class="main-box">
+        <div class="hamburger">
+            <a class="menu-trigger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="menu" id="menu">
+            <li><a href="./calendar4.html"><img src="../images/home_white.svg" height=50px; style="background-color: #009BA0;"></a></li>
+            <li><a href="./town2.html"><img src="../images/flag.svg" height=50px; class="town"></a></li>
+            <li><a href="./newcom.html"><img src="../images/community.svg" height=50px;></a></li>
+            <li><a href="./statistics.html"><img src="../images/statistics.svg" height=50px;></a></li>
+        </div>
+        <div class="profile">
+            <button><img src="../images/user profile.png" ></button>
+        </div>
+    </div>
+    <script src="../js/menu.js"></script>
+    <br>
+    <h1>MY DIARY</h1>
+    <br>
+    <div id="content">
+        <div class="diarytitle">
+            EXERCISE 2 HOURS
+        </div>
+        <diary class="diarycon">
+           <br> MAY 17th<br>
+            20:20 ~ 22:20
+            <br>
+            <br>
+            <img src="../images/day18.jpg" width="450px" height=auto>
+            <p>I exercised 2 hours<br>The sunset is really beautiful.</p>
+        </diary> 
+    </div>
+    
+    <div class="diaryform">
+        <img src="../images/diaryform.png" width="600px" height="1000px">
+    </div>
+    
+
+</body>
+</html>
