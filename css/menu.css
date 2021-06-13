@@ -20,12 +20,9 @@ body{
 .profile{
     float:right;
 }
-<<<<<<< HEAD
-=======
 .profile img{
   cursor:pointer;
 }
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
   .menu-trigger {
     margin-right: 70px;
     margin-bottom: 50px;
@@ -80,21 +77,13 @@ body{
     transform: translateY(-20px) rotate(45deg);
   }
 
-<<<<<<< HEAD
-li{
-=======
 .menu li{
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
     list-style:none;
     float:left;
     padding-left:15px;
     border-color:black;
 }
-<<<<<<< HEAD
-button{
-=======
 .profile button{
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
     border:0;
     background-color: transparent;
 }

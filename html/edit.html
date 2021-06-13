@@ -19,12 +19,17 @@
             $('#edit').hide();
             $('#minus1').show();
             $('#minus2').show();
+            $('#minus3').show();
             $('#add').show();
         }
         function add_click() {
             $('#minus3').show();
             $('#schedule3').show();
         }
+        function delete3_click() {
+            $('#minus3').hide();
+            $('#schedule3').hide();
+        } 
     </script>
     <title>Edit</title>
 </head>
@@ -38,7 +43,7 @@
             </a>
         </div>
         <div class="menu" id="menu">
-                <li><a href="#"><img src="../images/town.svg" height=50px; class="town"></a></li>
+                <li><a href="./town.html"><img src="../images/town.svg" height=50px; class="town"></a></li>
                 <li><a href="./newcom.html"><img src="../images/community.svg" height=50px;></a></li>
                 <li><a href="./statistics.html"><img src="../images/statistics.svg" height=50px;></a></li>
                 <!-- <li><a href="#"><img src="../images/setting.svg" height=50px;></a></li> -->
@@ -65,7 +70,7 @@
 
         <img id="minus1" src="../images/minus.png">
         <img id="minus2" src="../images/minus.png">
-        <img id="minus3" src="../images/minus.png">
+        <img id="minus3" onclick ="delete3_click()" src="../images/minus.png">
 
     </div>
     

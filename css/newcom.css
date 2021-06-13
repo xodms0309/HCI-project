@@ -5,11 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 #up p{
-<<<<<<< HEAD
-    padding-top:50px;
-=======
     padding-top:60px;
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
     padding-bottom:10px;
 }
 div#up{
@@ -21,21 +17,19 @@ div#up{
     width: 100%;
     height:680px;
     float:none;
-    margin: 0;
+    margin-top : 60px;
+    text-align: center;
 }
 .jb-wrap {
+    border: 1px;
     width: 20%;
-    margin-left: 10%;
     position:relative;
-    float: left;
+    display: inline-block;
 }
 .jb-wrap img {
     width: 100%;
     vertical-align: middle;
-<<<<<<< HEAD
-=======
     cursor:pointer;
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
 }
 .jb-text {
     padding: 5px 10px;

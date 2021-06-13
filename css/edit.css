@@ -35,35 +35,38 @@ body{
     position: relative;
 }
 #schedule3{
-    display: none;
 }
 #edit{
     position: absolute;
     left:400px;
+    top:300px;
+    cursor:pointer;
 }
 #add{
     position: absolute;
     left:450px;
+    top:300px;
     display: none;
 }
 #minus1{
     position: absolute;
     height: 40px;
-    top:262px;
+    top:273px;
     left:75px;
     display:none;
 }
 #minus2{
     position: absolute;
     height: 40px;
-    top:362px;
+    top:375px;
     left:75px;
     display:none;
 }
 #minus3{
     position: absolute;
     height: 40px;
-    top:460px;
+    top:475px;
     left:75px;
     display:none;
+    cursor:pointer;
 }

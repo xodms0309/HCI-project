@@ -3,16 +3,13 @@ body{
     padding: 10px 10px;
     font-family: 'Poppins', sans-serif;
 }
-.upper {
+/* .upper {
     width : 80%;
     font-size: 40px;
     font-weight:bold;
     position : relative;
     top : 30px;
-<<<<<<< HEAD
-=======
     list-style:none;
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
 }
 .tri_left {
     float: left;
@@ -23,11 +20,37 @@ body{
 ul li {
     margin-left: 115px;
     margin-right: 150px;
+    list-style: none;
+} */
+
+/*여기서*/
+.upper {
+    width: 800px;
+    margin : 70px auto 0;
+    text-align: center;
 }
+.month{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.tri_left {
+    float: left;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.tri_right {
+    float: right;
+    margin:0 auto;
+    padding-top: 25px;
+}
+/*여기까지 수정 김세은*/
 .wood {
-    position: relative;
-    left:25%;
-    top:70px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -45%);
+    margin-top: 30px;
 }
 .calendar {
     background-color: white;
@@ -36,7 +59,7 @@ ul li {
     width:990px;
     height: 580px;
 
-    top:100px;
+    top:5%;
     left: 20px;
     
 }
@@ -57,36 +80,17 @@ td{
     font-weight : bold;
 }
 
+/*여기서*/
 #today {
-    background-color:#F9DC85;
     position:absolute;
-<<<<<<< HEAD
-     margin-top: -12px;
-    padding:4px;
-
-=======
-    margin-top: -12px;
-    padding:4px;
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
+}
+#today_17 {
+    background-color:#F9DC85;
     border-radius: 100%;
+    padding:2px;
     cursor:pointer;
 }
-
-<<<<<<< HEAD
-#todayplan{
-    position:absolute;
-    top:325px;
-    left:340px;
-}
-
-#todayplan2{
-    position:absolute;
-    top:380px;
-    left:340px;
-}
-
-=======
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
+/*여기까지 수정 김세은*/
 #day1 {
     position: absolute;
     top:120px;
@@ -137,18 +141,15 @@ td{
     top:360px;
     left:210px;
 }
-<<<<<<< HEAD
 #day17 {
     position: absolute;
     top:360px;
     left:340px;
 }
-=======
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
 #board_prop{
     height: 70px;
     display: block;
-    margin :36px auto;
+    margin: 30px auto;
 }
 #big_bush{
     position: absolute;
@@ -166,10 +167,13 @@ td{
     position:absolute;
     background-color: #F2B705;
     border-radius: 10px;
-    top:360px;
-    left:340px;
+    top:365px;
+    left:315px;
     width:120px;
     padding:5px 10px;
     font-weight: bold;
     display:none;
+}
+input {
+    cursor:pointer;
 }

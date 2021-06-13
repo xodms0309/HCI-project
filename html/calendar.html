@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
-            $("#today").click(function() {
+            $("#today_17").click(function() {
                 $("#list").slideToggle();
             });
         });
@@ -34,34 +34,26 @@
         </div>
         <div class="menu" id="menu">
             <li><a href="./calendar.html"><img src="../images/home_white.svg" height=50px; style="background-color: #009BA0;"></a></li>
-<<<<<<< HEAD
-            <li><a href="./town.html"><img src="../images/flag.svg" height=50px; class="town"></a></li>
-=======
-            <li><a href="#"><img src="../images/flag.svg" height=50px; class="town"></a></li>
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
+            <li><a href="./town1.html"><img src="../images/flag.svg" height=50px; class="town"></a></li>
             <li><a href="./newcom.html"><img src="../images/community.svg" height=50px;></a></li>
             <li><a href="./statistics.html"><img src="../images/statistics.svg" height=50px;></a></li>
         </div>
         <div class="profile">
-<<<<<<< HEAD
-            <button><img src="../images/user profile.png" ></button>
-=======
             <button><img src="../images/user profile.png" onClick="location.href='profile.html'" ></button>
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
         </div>
     </div>
     <script src="../js/menu.js"></script>
     <!--여기부터 캘린더 부분-->
-    <div>
-        <ul class = "upper">
-            <li class="tri_left"><img src="../images/triangle.png" height=30px;></li>
-            <li class="month">2021 MAY</li>
-            <li class="tri_right"><img src="../images/triangle_right.png" height=30px;></li>
-        </ul>
+    
+    <!-- upper 수정 -->
+    <div class="upper">
+        <img class="tri_left" src="../images/triangle.png" height=30px;>
+        <span class="month">2021 MAY</span>
+        <img class="tri_right"src="../images/triangle_right.png" height=30px;>
     </div>
 
     <div class="wood">
-        <img src="../images/main wood.png"  height=650px;>
+        <img src="../images/main wood.png"  height=650px; style="margin: 0 auto;">
         <div class="calendar">
             <table>
                 <tr class="day">
@@ -76,16 +68,12 @@
                 <tr>
                     <td>15</td>
                     <td>16</td>
-<<<<<<< HEAD
-                    <td><p id="today">17 </p>
+                    <td id="today">
+                        <span id="today_17">17</span>
                         <div id="todayplan">
-                            <br>
                             <input type="checkbox" onClick="location.href='diary.html'">  READING
                         </div>
                     </td>
-=======
-                    <td><p id="today">17</p></td>
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
                     <td>18</td>
                     <td>19</td>
                     <td>20</td>
@@ -102,7 +90,7 @@
                 <img id="day5" src="../images/day/day5.png">
                 <img id="day6" src="../images/day/day7.png">
                 <img id="day10" src="../images/day/day10.png">
-                <img id="day11" src="../images/day/day11.png">
+                <img id="day11" src="../images/day/day11_2.jpg" height="70">
                 <img id="day12" src="../images/day/day12.png">
                 <img id="day14" src="../images/day/day14.png">
                 <img id="day15" src="../images/day/day15.png">
@@ -117,20 +105,12 @@
             </div>
 
             <!--17일 토글버틀 누르면 나오는 부분-->
-<<<<<<< HEAD
-            <div id="list">
-                <a href="./add.html">Add Schedule</a><br>
-                <a href="./edit.html">Eidt Schedule</a>    
-            </div>
-        </div>
-=======
             <a href="./edit.html">
                 <div id="list">
-                    Add Schedule<br>
-                    Edit Schedule
+                    <a href="./add.html">Add Schedule</a><br>
+                    <a href="./edit.html">Edit Schedule</a>
                 </div>
             </a>
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
         </div>
     </div>
 

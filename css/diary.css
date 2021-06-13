@@ -9,6 +9,7 @@
 h1{
     font-size: 70px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .diarytitle{
@@ -23,7 +24,9 @@ h1{
 
 .diaryform{
     position: absolute;
-    top:160px;
-    left:650px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
     z-index: -1;
+    margin-top: 80px;
 }

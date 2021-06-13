@@ -10,11 +10,7 @@ div#up{
 }
 #down{
     width: 100%;
-<<<<<<< HEAD
-    height:680px;
-=======
     height:710px;
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
     background-image:url('../images/back.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,9 +25,6 @@ border-radius: 30px;
 width: 140px;
 height: 55px;
 cursor: pointer;
-<<<<<<< HEAD
-}
-=======
 }
 .btn1{
     background: url("../images/book.png") no-repeat;
@@ -175,4 +168,3 @@ cursor: pointer;
     color:white;
     background: url("../images/cookingsel.png") no-repeat;
 }
->>>>>>> 8473b8ff077b5fc248b7f1d19c0a9336eb3f15c2
